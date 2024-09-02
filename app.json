@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "OPSI-MOBILE",
+    "slug": "OPSI-MOBILE",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.example.opsi",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e923d62-0611-47c1-a607-de80d47015f5"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.opsi"
+    }
+  }
+}
