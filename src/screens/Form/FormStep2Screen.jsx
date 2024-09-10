@@ -171,7 +171,7 @@ const FormStep2Screen = () => {
         <Text
           style={{ textAlign: "center", color: "#BE7200", fontWeight: 500 }}
         >
-          QR CODE ini Berlaku hingga jam 13:00! Segera pergi menuju penjaga
+          Segera pergi menuju penjaga
           sekolah untuk memulai perjalanan
         </Text>
       </View>

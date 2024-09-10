@@ -252,7 +252,7 @@ const FormScreen = () => {
         nisn: userData.nisn,
         classGrade: userData.classGrade,
         email: userData.email,
-        TimeCountdown: category === 7030 ? null : formatTime ,
+        TimeCountdown: category === 7030 ? "00:00:00" : formatTime,
         startTime: "00:00:00",
         endTime: "00:00:00",
         category,
@@ -268,7 +268,7 @@ const FormScreen = () => {
         expired: false,
       };
 
-      console.log("Form data:", formData);
+      // console.log("Form data:", formData);`
 
       try {
         const response = await AxiosInstance.post(

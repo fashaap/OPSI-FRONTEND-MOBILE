@@ -19,7 +19,8 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "iconSimika": "./assets/logo_simika_600DPI.png"
     },
     "extra": {
       "eas": {

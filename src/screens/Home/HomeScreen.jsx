@@ -186,7 +186,7 @@ const HomeScreen = ({ navigation }) => {
               <Text
                 style={{ color: "#ffffff", fontSize: 15, fontWeight: "bold" }}
               >
-                {userData ? userData.username : null}
+                {userData ? userData.displayName : null}
               </Text>
             )}
           </View>
